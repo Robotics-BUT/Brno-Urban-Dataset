@@ -7,3 +7,8 @@ The biggest part of our dataset has been recorded in Brno in area of BUT campus 
 
 
 ### Comming soon ...
+
+
+## Known Bugs
+
+  - some IR frames are misordered
