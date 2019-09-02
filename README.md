@@ -16,6 +16,34 @@ Comming soon ...
 
 Comming soon ... 
 
+
+<session_day_rec_part>/
+└───camera_<name>/
+│     video.mp4
+│     timestamps.txt
+│     (frameXXXXXX.jpeg)
+└───lidar_<name>/
+│     scans.zip
+│     timestamps.txt
+│     (scanXXXXXX.pcd)
+└───imu/
+│     imu.csv
+│     mag.csv
+│     gnss.csv
+│     d_quat.csv
+│     pressure.csv
+│     time.csv
+│     temp.csv
+└───gnss/
+│     pose.csv
+│     time.csv
+└───calibrations/
+│     frames.yaml
+│     camera_<name>.yaml
+└───tags.yaml
+  
+Lorem Ipsum
+
 |ID|Environment|Wather|Daytime|Distance [km]|
 |:---------:|:---------:|:---------:|:---------:|:---------:|
 |1_1_1_x  | City  | Sunny  | Noon  | 1 |
