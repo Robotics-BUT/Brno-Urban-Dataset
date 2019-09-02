@@ -58,7 +58,7 @@ For better search through the data please use the tag_<domain> folders in the ro
   
 ## Known Bugs
 
-  - some IR frames are misordered
+  - some IR frames in recording session no. 1 are misordered
 
 ## Attribution
 
