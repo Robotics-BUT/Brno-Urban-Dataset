@@ -16,7 +16,7 @@ Comming soon ...
 
 Comming soon ... 
 
-
+```
 <session_day_rec_part>/
 └───camera_<name>/
 │     video.mp4
@@ -41,6 +41,7 @@ Comming soon ...
 │     frames.yaml
 │     camera_<name>.yaml
 └───tags.yaml
+```
   
 Lorem Ipsum
 
