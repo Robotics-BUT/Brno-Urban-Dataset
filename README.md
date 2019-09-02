@@ -16,18 +16,25 @@ Comming soon ...
 
 Comming soon ... 
 
+|ID|Environment|Wather|Daytime|Distance [km]|
+|:---------:|:---------:|:---------:|:---------:|:---------:|
+|1_1_1_1  | City  | Sunny  | Noon  | 1 |
+|1_1_2_1  | Suburb  | Partial-sunny  | Morning  | 2.7 |
+
+## Data Download
+
+To get the data on your computer please clone the repository and use any torrent client app to open the .torrent file that you are interested in. After loading the .torrent file check the data folders that you are interested in and start the content downloading.
+
+For better search through the data please use the tag_<domain> folders in the root directory.
+  
+## Known Bugs
+
+  - some IR frames are misordered
+
 ## Attribution
 
 If you have used our data, please cite our original paper
 
 Comming soon ... 
 
-## Data Download
 
-To get the data on your computer please clone the repository and use any torrent client app to open the .torrent file that you are interested in. After loading the .torrent file check the data folders that you are interested in and start the content downloading.
-
-For better search through the data please use the tag_<> folders in the root directory.
-
-## Known Bugs
-
-  - some IR frames are misordered
