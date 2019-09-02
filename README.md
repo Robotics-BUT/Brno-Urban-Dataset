@@ -8,7 +8,7 @@ The biggest part of our dataset has been recorded in Brno in area of BUT campus 
 
 [Adam Ligocki](https://www.vutbr.cz/en/people/adam-ligocki-154791#navigace-vizitka) · [Aleš Jelínek](https://www.ceitec.cz/ing-ales-jelinek-ph-d/u91705) · [Luděk Žalud](https://scholar.google.com/citations?user=kWXqPAIAAAAJ&hl=en&oi=ao)
 
-## Example Video
+## Example Visualization
 
 Comming soon ... 
 
@@ -18,8 +18,8 @@ Comming soon ...
 
 |ID|Environment|Wather|Daytime|Distance [km]|
 |:---------:|:---------:|:---------:|:---------:|:---------:|
-|1_1_1_1  | City  | Sunny  | Noon  | 1 |
-|1_1_2_1  | Suburb  | Partial-sunny  | Morning  | 2.7 |
+|1_1_1_x  | City  | Sunny  | Noon  | 1 |
+|1_1_2_x  | Suburb  | Partial-sunny  | Morning  | 2.7 |
 
 ## Data Download
 
