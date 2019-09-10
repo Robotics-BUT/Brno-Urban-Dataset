@@ -25,16 +25,16 @@ Comming soon ...
 │     timestamps.txt
 │     (scanXXXXXX.pcd)
 └───imu/
-│     imu.csv
-│     mag.csv
-│     gnss.csv
-│     d_quat.csv
-│     pressure.csv
-│     time.csv
-│     temp.csv
+│     imu.txt
+│     mag.txt
+│     gnss.txt
+│     d_quat.txt
+│     pressure.txt
+│     time.txt
+│     temp.txt
 └───gnss/
-│     pose.csv
-│     time.csv
+│     pose.txt
+│     time.txt
 └───calibrations/
 │     frames.yaml
 │     camera_<name>.yaml
@@ -43,10 +43,11 @@ Comming soon ...
   
 Lorem Ipsum
 
-|ID|Environment|Wather|Daytime|Distance [km]|
+|Tag Category|Tag|No. of Recordings|Distance [km]|Duration [hours]|
 |:---------:|:---------:|:---------:|:---------:|:---------:|
-|1_1_1_x  | City  | Sunny  | Noon  | 1 |
-|1_1_2_x  | Suburb  | Partial-sunny  | Morning  | 2.7 |
+|Weather  | Sunny<br>Partly-cloudy<br>Cloudy  | -<br>-<br>-  | -<br>-<br>-  | -<br>-<br>- |
+|Daytime  | Morning<br>Noon<br>Afternoon<br>Evening  | -<br>-<br>-<br>- | -<br>-<br>-<br>-  | -<br>-<br>-<br>- |
+|Environment  | City<br>Suburb<br>Country<br>Highway  | -<br>-<br>-<br>-  | -<br>-<br>-<br>-  | -<br>-<br>-<br>- |
 
 ## Data Download
 
