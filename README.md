@@ -22,22 +22,26 @@ Map visualizatoin of the places where the data have been collected
 
 ## Data Description
 
-**RGB camera (1920x1200px, optics: 8mm front, 6mm lateral)**
+It is a good practice to sort the data according to its content. The time of recording serves mostly as a unique identifier and a brief description is good to get a quick overview of the recording, but both are cumbersome to use, if a whole database of all recordings is needed to be searched through. For this reason, we have employed a system of tags, which allow us to highlight the most important content and enable easy filtration of the recordings
+
+Data structure for each record is shown in the table below. 
+
+**RGB camera (1920x1200px, optics: 8mm front, 6mm lateral)**<br><br>
 .mp4 video      - file with h265 data encoding (can be extracted into separated image files) 
 timestamps.txt  - <system timestamp, image seq. number, internal camera timestamp><br>
 ![Datasheet](https://s1-dl.theimagingsource.com/api/2.5/packages/documentation/manuals-trm/trmdfk33gx174/a6a75d31-8eef-5a63-a28e-340327cca1e4/trmdfk33gx174.en_US.pdf)
 
-**IR camera (640x512px)**
+**IR camera (640x512px)**<br><br>
 .mp4 video      - file with h265 data encoding (can be extracted into separated image files)
 timestamps.txt  - <system timestamp, image seq. min temp., max temp><br>
 ![Datasheet](https://www.flir.com/globalassets/imported-assets/document/16-0423-oem-datasheet-update-tau-2.pdf)
 
-**LiDAR**
+**LiDAR**<br><br>
 scans.zip       - zip file contains all the scans taken by LiDAR during the recording. Scans are in .pcd file firmat
 timestamps.txt  - <system timestamp, scan seq. number, internal LiDAR’s timestamp><br>
 ![Datasheet](https://velodynelidar.com/lidar/products/manual/63-9113%20HDL-32E%20manual_Rev%20G.pdf)
 
-**IMU**
+**IMU**<br><br>
 imu.txt       - <system timestamp, lin. acc. (X, Y, Z), ang. vel (X, Y, Z), orientation (X, Y, Z, W)><br>
 mag.txt       - <system timestamp, mag. field (X, Y, Z)><br>
 gnss.txt      - <system timestamp, latitude, longitude, altitude><br>
@@ -47,7 +51,7 @@ time.txt      - <system timestamp, UTC (year, month, day, hour, minute, second, 
 temp.txt      - <system timestamp, temp><br>
 ![Datasheet](https://www.xsens.com/products/mti-100-series/)
 
-**GNSS**
+**GNSS**<br><br>
 pose - <system timestamp, latitude, longitude, altitude, heading vector><br>
 time - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)><br>
 ![Datasheet](https://www.trimble.com/OEM_ReceiverHelp/v5.11/en/BX982%20PDF.pdf)
