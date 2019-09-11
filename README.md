@@ -11,11 +11,17 @@ Research in the domain of autonomous mobile vehicles have tremendously expanded 
 [Comming soon]
 Dataset Video
 
+<br>
+
 [Comming soon]
 Image data example
 
+<br>
+
 <img src="media/sensory_framework.jpeg" width=50%>
 The sensory framework mounted on the car roof
+
+<br>
 
 [Comming soon]
 Map visualizatoin of the places where the data have been collected 
