@@ -10,7 +10,7 @@ Research in the domain of autonomous mobile vehicles have tremendously expanded 
 
 Comming soon ... 
 
-![Sensory Framework](media/sensory_framework.jpeg | width=150)
+<img src="media/sensory_framework.jpeg" width="40%">
 
 ## Data Description
 
