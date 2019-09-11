@@ -8,10 +8,17 @@ Research in the domain of autonomous mobile vehicles have tremendously expanded 
 
 ## Example Visualization
 
-<figure>
-  <img src="media/sensory_framework.jpeg" style="width:50%">
-  <figcaption>The sensory framework mounted on the car roof</figcaption>
-</figure>
+[Comming soon]
+Dataset Video
+
+[Comming soon]
+Image data example
+
+<img src="media/sensory_framework.jpeg" width=50%>
+The sensory framework mounted on the car roof
+
+[Comming soon]
+Map visualizatoin of the places where the data have been collected 
 
 ## Data Description
 
@@ -43,8 +50,12 @@ Comming soon ...
 │     camera_<name>.yaml
 └───tags.yaml
 ```
-  
-Lorem Ipsum
+
+<br>
+
+The brief overview of the datadistribution in the various time of the day, weather conditions or the environment types.
+
+<br>
 
 |Tag Category|Tag|No. of Recordings|Distance [km]|Duration [hours]|
 |:---------:|:---------:|:---------:|:---------:|:---------:|
