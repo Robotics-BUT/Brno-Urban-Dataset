@@ -24,32 +24,32 @@ Map visualizatoin of the places where the data have been collected
 
 **RGB camera (1920x1200px, optics: 8mm front, 6mm lateral)**
 .mp4 video      - file with h265 data encoding (can be extracted into separated image files) 
-timestamps.txt  - {system timestamp, image seq. number, internal camera timestamp}
+timestamps.txt  - <system timestamp, image seq. number, internal camera timestamp><br>
 ![Datasheet](https://s1-dl.theimagingsource.com/api/2.5/packages/documentation/manuals-trm/trmdfk33gx174/a6a75d31-8eef-5a63-a28e-340327cca1e4/trmdfk33gx174.en_US.pdf)
 
 **IR camera (640x512px)**
 .mp4 video      - file with h265 data encoding (can be extracted into separated image files)
-timestamps.txt  - {system timestamp, image seq. min temp., max temp}
+timestamps.txt  - <system timestamp, image seq. min temp., max temp><br>
 ![Datasheet](https://www.flir.com/globalassets/imported-assets/document/16-0423-oem-datasheet-update-tau-2.pdf)
 
 **LiDAR**
 scans.zip       - zip file contains all the scans taken by LiDAR during the recording. Scans are in .pcd file firmat
-timestamps.txt  - {system timestamp, scan seq. number, internal LiDAR’s timestamp}
+timestamps.txt  - <system timestamp, scan seq. number, internal LiDAR’s timestamp><br>
 ![Datasheet](https://velodynelidar.com/lidar/products/manual/63-9113%20HDL-32E%20manual_Rev%20G.pdf)
 
 **IMU**
-imu.txt       - {system timestamp, lin. acc. (X, Y, Z), ang. vel (X, Y, Z), orientation (X, Y, Z, W)}
-mag.txt       - {system timestamp, mag. field (X, Y, Z)}
-gnss.txt      - {system timestamp, latitude, longitude, altitude}
-d_quat.txt    - {system timestamp, delta orientation (X, Y, Z, W)}
-pressure.txt  - {system timestamp, pressure}
-time.txt      - {system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)}
-temp.txt      - {system timestamp, temp}
+imu.txt       - <system timestamp, lin. acc. (X, Y, Z), ang. vel (X, Y, Z), orientation (X, Y, Z, W)><br>
+mag.txt       - <system timestamp, mag. field (X, Y, Z)><br>
+gnss.txt      - <system timestamp, latitude, longitude, altitude><br>
+d_quat.txt    - <system timestamp, delta orientation (X, Y, Z, W)><br>
+pressure.txt  - <system timestamp, pressure><br>
+time.txt      - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)><br>
+temp.txt      - <system timestamp, temp><br>
 ![Datasheet](https://www.xsens.com/products/mti-100-series/)
 
 **GNSS**
-pose - {system timestamp, latitude, longitude, altitude, heading vector}
-time - {system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)}
+pose - <system timestamp, latitude, longitude, altitude, heading vector><br>
+time - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)><br>
 ![Datasheet](https://www.trimble.com/OEM_ReceiverHelp/v5.11/en/BX982%20PDF.pdf)
 
 ```
