@@ -10,6 +10,8 @@ Research in the domain of autonomous mobile vehicles have tremendously expanded 
 
 Comming soon ... 
 
+![Sensory Framework](media/sensory_framework.jpeg)
+
 ## Data Description
 
 Comming soon ... 
