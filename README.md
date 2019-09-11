@@ -8,9 +8,10 @@ Research in the domain of autonomous mobile vehicles have tremendously expanded 
 
 ## Example Visualization
 
-Comming soon ... 
-
-<img src="media/sensory_framework.jpeg" width="40%">
+<figure>
+  <img src="media/sensory_framework.jpeg" style="width:50%">
+  <figcaption>The sensory framework mounted on the car roof</figcaption>
+</figure>
 
 ## Data Description
 
