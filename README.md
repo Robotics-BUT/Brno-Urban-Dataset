@@ -68,6 +68,14 @@ pose - <system timestamp, latitude, longitude, altitude, heading vector><br>
 time - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)><br>
 ![Datasheet](https://www.trimble.com/OEM_ReceiverHelp/v5.11/en/BX982%20PDF.pdf)
 
+**Calibrations**
+
+Lorem Ipsum
+
+**Tags**
+
+Lorem Ipsum
+
 ```
 <session_day_rec_part>/
 └───camera_<name>/
