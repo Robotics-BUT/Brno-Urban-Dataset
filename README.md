@@ -39,17 +39,17 @@ It is a good practice to sort the data according to its content. The time of rec
 Data structure for each record is shown in the table below. 
 
 **RGB camera - 1920x1200px, optics: 8mm front (70deg FoV), 6mm lateral (90deg FoV)**<br>
-.mp4 video      - file with h265 data encoding (can be extracted into separated image files) 
+.mp4 video      - file with h265 data encoding (can be extracted into separated image files) <br>
 timestamps.txt  - <system timestamp, image seq. number, internal camera timestamp><br>
 ![Datasheet](https://s1-dl.theimagingsource.com/api/2.5/packages/documentation/manuals-trm/trmdfk33gx174/a6a75d31-8eef-5a63-a28e-340327cca1e4/trmdfk33gx174.en_US.pdf)
 
 **IR camera - 640x512px, optics: 19mm (69deg FoV)**<br>
-.mp4 video      - file with h265 data encoding (can be extracted into separated image files)
+.mp4 video      - file with h265 data encoding (can be extracted into separated image files) <br>
 timestamps.txt  - <system timestamp, image seq. min temp., max temp><br>
 ![Datasheet](https://www.flir.com/globalassets/imported-assets/document/16-0423-oem-datasheet-update-tau-2.pdf)
 
 **LiDAR**<br>
-scans.zip       - zip file contains all the scans taken by LiDAR during the recording. Scans are in .pcd file firmat
+scans.zip       - zip file contains all the scans taken by LiDAR during the recording. Scans are in .pcd file firmat <br>
 timestamps.txt  - <system timestamp, scan seq. number, internal LiDAR’s timestamp><br>
 ![Datasheet](https://velodynelidar.com/lidar/products/manual/63-9113%20HDL-32E%20manual_Rev%20G.pdf)
 
