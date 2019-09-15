@@ -29,8 +29,6 @@ The sensory framework mounted on the car roof
 <br>
 
 <img src="media/map.png" width=50%>
-The sensory framework mounted on the car roof
-
 Map visualizatoin of the places where the data have been collected 
 
 ## Data Description
