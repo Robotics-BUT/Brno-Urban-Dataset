@@ -15,9 +15,8 @@ Dataset Video
 <br>
 <br>
 
-[Comming soon]
-
-Image data example
+<img src="media/dataset.jpeg" width=50%>
+Brief overview of the available data
 
 <br>
 <br>
