@@ -111,9 +111,9 @@ The brief overview of the datadistribution in the various time of the day, weath
 
 |Tag Category|Tag|No. of Recordings|Distance [km]|Duration [hours]|
 |:---------:|:---------:|:---------:|:---------:|:---------:|
-|Weather  | Sunny<br>Partly-cloudy<br>Cloudy  | -<br>-<br>-  | -<br>-<br>-  | -<br>-<br>- |
-|Daytime  | Morning<br>Noon<br>Afternoon<br>Evening  | -<br>-<br>-<br>- | -<br>-<br>-<br>-  | -<br>-<br>-<br>- |
-|Environment  | City<br>Suburb<br>Country<br>Highway  | -<br>-<br>-<br>-  | -<br>-<br>-<br>-  | -<br>-<br>-<br>- |
+|Weather  | Sunny<br>Partly-cloudy  | 42<br>25  | 245.1<br>130.6  | 6:23<br>4:32 |
+|Daytime  | Morning<br>Noon<br>Afternoon<br>Evening  | 15<br>26<br>21<br>5 | 60.1<br>175.6<br>96.4<br>43.6  | 1:48<br>4:04<br>3:37<br>1:24 |
+|Environment  | City<br>Suburb<br>Country<br>Highway  | 36<br>21<br>6<br>4  | 181.9<br>71.0<br>48.1<br>74.7  | 5:56<br>2:34<br>1:16<br>1:08 |
 
 ## Data Download
 
