@@ -70,9 +70,6 @@ time - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecon
 
 Lorem Ipsum
 
-**Tags**
-
-Lorem Ipsum
 
 ```
 <session_day_rec_part>/
@@ -96,9 +93,8 @@ Lorem Ipsum
 │     pose.txt
 │     time.txt
 └───calibrations/
-│     frames.yaml
-│     camera_<name>.yaml
-└───tags.yaml
+      frames.yaml
+      camera_<name>.yaml
 ```
 
 <br>
