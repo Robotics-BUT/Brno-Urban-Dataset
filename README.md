@@ -39,19 +39,19 @@ Data structure for each record is shown in the table below.
 **RGB camera - 1920x1200px, optics: 8mm front (70deg FoV), 6mm lateral (90deg FoV)**<br>
 .mp4 video      - file with h265 data encoding (can be extracted into separated image files) <br>
 timestamps.txt  - <system timestamp, image seq. number, internal camera timestamp><br>
-![Datasheet](https://s1-dl.theimagingsource.com/api/2.5/packages/documentation/manuals-trm/trmdfk33gx174/a6a75d31-8eef-5a63-a28e-340327cca1e4/trmdfk33gx174.en_US.pdf)
+![Datasheet](https://www.theimagingsource.com)
 
-**IR camera - 640x512px, optics: 19mm (69deg FoV)**<br>
+**IR camera FlIR Tau 2- 640x512px, optics: 19mm (69deg FoV)**<br>
 .mp4 video      - file with h265 data encoding (can be extracted into separated image files) <br>
 timestamps.txt  - <system timestamp, image seq. min temp., max temp><br>
-![Datasheet](https://www.flir.com/globalassets/imported-assets/document/16-0423-oem-datasheet-update-tau-2.pdf)
+![Datasheet](https://www.flir.com)
 
-**LiDAR**<br>
+**LiDAR Velodyne HDL-32e**<br>
 scans.zip       - zip file contains all the scans taken by LiDAR during the recording. Scans are in .pcd file firmat <br>
 timestamps.txt  - <system timestamp, scan seq. number, internal LiDAR’s timestamp><br>
-![Datasheet](https://velodynelidar.com/lidar/products/manual/63-9113%20HDL-32E%20manual_Rev%20G.pdf)
+![Datasheet](https://velodynelidar.com/)
 
-**IMU**<br>
+**IMU Xsens MTi-G-710**<br>
 imu.txt       - <system timestamp, lin. acc. (X, Y, Z), ang. vel (X, Y, Z), orientation (X, Y, Z, W)><br>
 mag.txt       - <system timestamp, mag. field (X, Y, Z)><br>
 gnss.txt      - <system timestamp, latitude, longitude, altitude><br>
@@ -59,12 +59,12 @@ d_quat.txt    - <system timestamp, delta orientation (X, Y, Z, W)><br>
 pressure.txt  - <system timestamp, pressure><br>
 time.txt      - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)><br>
 temp.txt      - <system timestamp, temp><br>
-![Datasheet](https://www.xsens.com/products/mti-100-series/)
+![Datasheet](https://www.xsens.com)
 
-**GNSS**<br>
+**GNSS Trimble 982BX**<br>
 pose - <system timestamp, latitude, longitude, altitude, heading vector><br>
 time - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)><br>
-![Datasheet](https://www.trimble.com/OEM_ReceiverHelp/v5.11/en/BX982%20PDF.pdf)
+![Datasheet](https://www.trimble.com)
 
 **Calibrations**
 
