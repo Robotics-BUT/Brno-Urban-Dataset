@@ -8,7 +8,7 @@ Research in the domain of autonomous mobile vehicles have tremendously expanded 
 
 ## Example Visualization
 
-[Comming soon]
+!(Video)[https://youtu.be/wDFePIViwqY]
 
 Dataset Video
 
