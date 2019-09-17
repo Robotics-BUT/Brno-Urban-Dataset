@@ -39,17 +39,17 @@ Data structure for each record is shown in the table below.
 **RGB camera - 1920x1200px, optics: 8mm front (70deg FoV), 6mm lateral (90deg FoV)**<br>
 .mp4 video      - file with h265 data encoding (can be extracted into separated image files) <br>
 timestamps.txt  - <system timestamp, image seq. number, internal camera timestamp><br>
-[Datasheet](https://www.theimagingsource.com)
+[Details](https://www.theimagingsource.com)
 
 **IR camera FlIR Tau 2- 640x512px, optics: 19mm (69deg FoV)**<br>
 .mp4 video      - file with h265 data encoding (can be extracted into separated image files) <br>
 timestamps.txt  - <system timestamp, image seq. min temp., max temp><br>
-[Datasheet](https://www.flir.com)
+[Details](https://www.flir.com)
 
 **LiDAR Velodyne HDL-32e**<br>
 scans.zip       - zip file contains all the scans taken by LiDAR during the recording. Scans are in .pcd file firmat <br>
 timestamps.txt  - <system timestamp, scan seq. number, internal LiDAR’s timestamp><br>
-[Datasheet](https://velodynelidar.com/)
+[Details](https://velodynelidar.com/)
 
 **IMU Xsens MTi-G-710**<br>
 imu.txt       - <system timestamp, lin. acc. (X, Y, Z), ang. vel (X, Y, Z), orientation (X, Y, Z, W)><br>
@@ -59,12 +59,12 @@ d_quat.txt    - <system timestamp, delta orientation (X, Y, Z, W)><br>
 pressure.txt  - <system timestamp, pressure><br>
 time.txt      - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)><br>
 temp.txt      - <system timestamp, temp><br>
-[Datasheet](https://www.xsens.com)
+[Details](https://www.xsens.com)
 
 **GNSS Trimble 982BX**<br>
 pose - <system timestamp, latitude, longitude, altitude, heading vector><br>
 time - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)><br>
-[Datasheet](https://www.trimble.com)
+[Details](https://www.trimble.com)
 
 **Calibrations**
 
@@ -121,8 +121,6 @@ For better search through the data please use the tag_<domain> folders in the ro
 
 ## Attribution
 
-If you have used our data, please cite our original paper
-
-Comming soon ... 
+If you have used our data, please cite our original [paper](https://arxiv.org/abs/1909.06897)
 
 
