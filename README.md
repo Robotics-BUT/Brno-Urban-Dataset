@@ -6,7 +6,7 @@ Research in the domain of autonomous mobile vehicles have tremendously expanded 
 
 [Adam Ligocki](https://www.vutbr.cz/en/people/adam-ligocki-154791#navigace-vizitka) · [Aleš Jelínek](https://www.ceitec.cz/ing-ales-jelinek-ph-d/u91705) · [Luděk Žalud](https://scholar.google.com/citations?user=kWXqPAIAAAAJ&hl=en&oi=ao)
 
-## Data are comming in few days !!!
+## First data are already available, more comming soon...
  
 ## Example Visualization
 
@@ -100,7 +100,7 @@ Lorem Ipsum
 
 <br>
 
-The brief overview of the datadistribution in the various time of the day, weather conditions or the environment types.
+The brief overview of the data distribution in the various time of the day, weather conditions or the environment types.
 
 <br>
 
@@ -114,7 +114,7 @@ The brief overview of the datadistribution in the various time of the day, weath
 
 To get the data on your computer please clone the repository and use any torrent client app to open the .torrent file that you are interested in. After loading the .torrent file check the data folders that you are interested in and start the content downloading.
 
-For better search through the data please use the tag_<domain> folders in the root directory.
+For better search through the data please use the [recordings_table.md](recordings_table.md) in the root directory.
   
 ## Known Bugs
 
