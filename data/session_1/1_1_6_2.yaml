@@ -1,0 +1,23 @@
+session_id: [1_1_6_2]
+
+sensors: [imu, 
+          lidar_left,
+          lidar_right,
+          gnss,
+          camera_left_front,
+          camera_left_side,
+          camera_right_front,
+          camera_right_side,
+          ir_camera]
+
+weather: [sunny]
+
+daytime: [afternoon]
+
+distance: [5.6]
+
+environment: [suburb]
+
+gnss_quality: [good]
+
+others: []
