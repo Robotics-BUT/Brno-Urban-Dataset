@@ -1,0 +1,27 @@
+metadata_type: ["recording"]
+
+session_id: ["2_1_7_2"]
+
+sensors: ["imu", 
+          "lidar_left",
+          "lidar_right",
+          "gnss",
+          "camera_left_front",
+          "camera_left_side",
+          "camera_right_front",
+          "camera_right_side",
+          "ir_camera"]
+
+weather: ["partly-cloudy"]
+
+daytime: ["afternoon"]
+
+distance: [7.5]
+
+environment: ["suburb"]
+
+gnss_quality: ["good"]
+
+others: []
+
+time: [1274]

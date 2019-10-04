@@ -6,8 +6,6 @@ Research in the domain of autonomous mobile vehicles have tremendously expanded 
 
 [Adam Ligocki](https://www.vutbr.cz/en/people/adam-ligocki-154791#navigace-vizitka) · [Aleš Jelínek](https://www.ceitec.cz/ing-ales-jelinek-ph-d/u91705) · [Luděk Žalud](https://scholar.google.com/citations?user=kWXqPAIAAAAJ&hl=en&oi=ao)
 
-## First data are already available, more comming soon...
- 
 ## Example Visualization
 
 [![Dataset Video](http://img.youtube.com/vi/wDFePIViwqY/0.jpg)](http://www.youtube.com/watch?v=wDFePIViwqY "Video")

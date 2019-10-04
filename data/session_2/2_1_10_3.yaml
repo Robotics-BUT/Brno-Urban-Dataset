@@ -1,0 +1,24 @@
+metadata_type: ["recording"]
+
+session_id: ["2_1_10_3"]
+
+sensors: ["imu", 
+          "lidar_left",
+          "lidar_right",
+          "gnss",
+          "camera_left_front",
+          "ir_camera"]
+
+weather: ["partly-cloudy"]
+
+daytime: ["evening"]
+
+distance: [8.8]
+
+environment: ["city"]
+
+gnss_quality: ["good"]
+
+others: []
+
+time: [1038]
