@@ -67,7 +67,7 @@ time - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecon
 
 **Calibrations**
 
-Lorem Ipsum
+Currently the calibration is performed manually as a best guess. In near future we are going to provide the results of the better calculated by the dedicated software tools.  
 
 
 ```
@@ -117,6 +117,8 @@ For better search through the data please use the [recordings_table.md](recordin
 ## Known Bugs
 
   - some IR frames in recording session no. 1 are misordered
+  - IMU linear acceleration data has an inverted sign
+  - For right LiDAR data the 18th row is missing and for left LiDAR data the 15th row is missing (counted from the bottom).
 
 ## Attribution
 
