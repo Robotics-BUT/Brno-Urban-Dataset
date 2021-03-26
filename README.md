@@ -124,6 +124,17 @@ For better search through the data please use the [recordings_table.md](recordin
 
 If you have used our data, please cite our original [paper](https://arxiv.org/abs/1909.06897)
 
+```
+@inproceedings{ligocki2020brno,
+  title={Brno Urban Dataset-The New Data for Self-Driving Agents and Mapping Tasks},
+  author={Ligocki, Adam and Jelinek, Ales and Zalud, Ludek},
+  booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={3284--3290},
+  year={2020},
+  organization={IEEE}
+}
+```
+
 ## Acknowledgement
 
 The research was supported by ECSEL JU under the project H2020 737469 AutoDrive - Advancing fail-aware, fail-safe, and fail-operational electronic components, systems, and architectures for fully automated driving to make future mobility safer, affordable, and end-user acceptable. This research has been financially supported by the Ministry of Education, Youth and Sports of the Czech republic under the project CEITEC 2020 (LQ1601).
