@@ -29,6 +29,26 @@ The sensory framework mounted on the car roof
 <img src="media/map.png" width=50%>
 Map visualizatoin of the places where the data have been collected 
 
+### Winter Extention
+
+<br>
+<br>
+
+<img src="media/dataset_we.jpg" width=50%>
+Data overview.
+
+<br>
+<br>
+
+<img src="media/sensory_framework_we.jpg" width=50%>
+Sensory framework
+
+<br>
+<br>
+
+<img src="media/map_we.jpg" width=50%>
+Covered places
+
 ## Data Description
 
 It is a good practice to sort the data according to its content. The time of recording serves mostly as a unique identifier and a brief description is good to get a quick overview of the recording, but both are cumbersome to use, if a whole database of all recordings is needed to be searched through. For this reason, we have employed a system of tags, which allow us to highlight the most important content and enable easy filtration of the recordings
@@ -40,7 +60,7 @@ Data structure for each record is shown in the table below.
 timestamps.txt  - <system timestamp, image seq. number, internal camera timestamp><br>
 [Details](https://www.theimagingsource.com)
 
-**IR camera FlIR Tau 2- 640x512px, optics: 19mm (69deg FoV)**<br>
+**IR camera FLIR Tau 2- 640x512px, optics: 19mm (69deg FoV)**<br>
 .mp4 video      - file with h265 data encoding (can be extracted into separated image files) <br>
 timestamps.txt  - <system timestamp, image seq. min temp., max temp><br>
 [Details](https://www.flir.com)
@@ -64,6 +84,19 @@ temp.txt      - <system timestamp, temp><br>
 pose - <system timestamp, latitude, longitude, altitude, heading vector><br>
 time - <system timestamp, UTC (year, month, day, hour, minute, second, nanosecond)><br>
 [Details](https://www.trimble.com)
+
+**LiDAR Livox Horizon (Winter Ext. only)**<br>
+scans.zip	- zip file contains all the scans taken by LiDAR during the recording. Scans are in .pcd file firmat <br>
+timestamps.txt  - <system timestamp, scan seq. number><br>
+[Details](https://www.livoxtech.com/horizon)
+
+**FMCW Radar - mmWave AWR1642 (Winter Ext. only)**<br>
+scans.txt	- <system timestamp, number of det. obj., [list of detections, (x, y, z, vel) for each]>
+[Details](https://www.ti.com/product/AWR1642)
+	
+**YOLO detections (virtual sensor, Winter Ext. only)**<br>
+[camera-name].txt - <video frame index, x, y, width, height, detection confidence, class>
+[Details](https://github.com/ultralytics/yolov5)
 
 **Calibrations**
 
@@ -91,6 +124,10 @@ Currently the calibration is performed manually as a best guess. In near future 
 └───gnss/
 │     pose.txt
 │     time.txt
+└───radar_ti/
+│     scans.txt
+└───yolo/
+      camera_<name>.txt
 └───calibrations/
       frames.yaml
       camera_<name>.yaml
@@ -104,9 +141,9 @@ The brief overview of the data distribution in the various time of the day, weat
 
 |Tag Category|Tag|No. of Recordings|Distance [km]|Duration [hours]|
 |:---------:|:---------:|:---------:|:---------:|:---------:|
-|Weather  | Sunny<br>Partly-cloudy  | 42<br>25  | 245.1<br>130.6  | 6:23<br>4:32 |
-|Daytime  | Morning<br>Noon<br>Afternoon<br>Evening  | 15<br>26<br>21<br>5 | 60.1<br>175.6<br>96.4<br>43.6  | 1:48<br>4:04<br>3:37<br>1:24 |
-|Environment  | City<br>Suburb<br>Country<br>Highway  | 36<br>21<br>6<br>4  | 181.9<br>71.0<br>48.1<br>74.7  | 5:56<br>2:34<br>1:16<br>1:08 |
+|Weather     | Sunny<br>Partly-cloudy<br>Cloudy<br>Rain | 42<br>25<br>9<br>4  | 245.1<br>130.6<br>69.6<br>18.6 | 6:23<br>4:32<br>2:17<br>0:32 |
+|Daytime     | Morning<br>Noon<br>Afternoon<br>Evening  | 15<br>30<br>26<br>9 | 60.1<br>225.4<br>116.2<br>62.2 | 1:48<br>5:37<br>4:21<br>1:56 |
+|Environment | City<br>Suburb<br>Country<br>Highway     | 36<br>21<br>6<br>4  | 195.4<br>112.9<br>80.9<br>74.7 | 6:26<br>3:58<br>2:09<br>1:08 |
 
 ## Data Download
 
