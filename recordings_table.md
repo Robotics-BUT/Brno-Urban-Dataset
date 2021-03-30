@@ -72,3 +72,16 @@ Unfortunately, due to security reasons GitHub markdown language does not support
 |[2_2_3_1](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_2/2_2_3_1.torrent)|highway|noon|sunny|31.9|0:23|
 |[2_1_3_1](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_2/2_1_3_1.torrent)|suburb|noon|sunny|4.7|0:10|
 |[2_1_8_2](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_2/2_1_8_2.torrent)|suburb|afternoon|partly-cloudy|12.4|0:16|
+|[3_1_1_1](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_1_1.torrent)|suburb|noon|cloudy|8.2|0:17|
+|[3_1_1_2](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_1_2.torrent)|city|noon|cloudy|13.5|0:30|
+|[3_1_2_1](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_2_1.torrent)|country|noon|cloudy|6.8|0:15|
+|[3_1_2_2](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_2_2.torrent)|country|noon|cloudy|21.3|0:31|
+|[3_1_3_1](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_3_1.torrent)|suburb|afternoon|cloudy|1.4|0:03|
+|[3_1_3_2](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_3_2.torrent)|suburb|afternoon|cloudy|8.9|0:20|
+|[3_1_3_3](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_3_3.torrent)|suburb|afternoon|cloudy|1.5|0:03|
+|[3_1_3_4](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_3_4.torrent)|suburb|afternoon|cloudy|4.7|0:11|
+|[3_1_3_5](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_3_5.torrent)|suburb|afternoon|cloudy|3.3|0:07|
+|[3_1_4_1](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_4_1.torrent)|suburb|evening|rain|2.8|0:07|
+|[3_1_4_2](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_4_2.torrent)|suburb|evening|rain|2.4|0:06|
+|[3_1_4_3](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_4_3.torrent)|country|evening|rain|4.7|0:07|
+|[3_1_4_4](https://github.com/RoboticsBUT/Brno-Urban-Dataset/blob/master/data/session_3/3_1_4_4.torrent)|suburb|evening|rain|8.7|0:12|
