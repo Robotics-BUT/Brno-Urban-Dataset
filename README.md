@@ -31,16 +31,13 @@ Map visualizatoin of the places where the data have been collected
 
 ### Winter Extention
 
-<br>
-<br>
-
 <img src="media/dataset_we.jpg" width=50%>
 Data overview.
 
 <br>
 <br>
 
-<img src="media/sensory_framework_we.jpg" width=50%>
+<img src="media/sensory_framework_we.jpeg" width=50%>
 Sensory framework
 
 <br>
@@ -91,11 +88,11 @@ timestamps.txt  - <system timestamp, scan seq. number><br>
 [Details](https://www.livoxtech.com/horizon)
 
 **FMCW Radar - mmWave AWR1642 (Winter Ext. only)**<br>
-scans.txt	- <system timestamp, number of det. obj., [list of detections, (x, y, z, vel) for each]>
+scans.txt	- <system timestamp, number of det. obj., [list of detections, (x, y, z, vel) for each]><br>
 [Details](https://www.ti.com/product/AWR1642)
 	
 **YOLO detections (virtual sensor, Winter Ext. only)**<br>
-[camera-name].txt - <video frame index, x, y, width, height, detection confidence, class>
+[camera-name].txt - <video frame index, x, y, width, height, detection confidence, class><br>
 [Details](https://github.com/ultralytics/yolov5)
 
 **Calibrations**
