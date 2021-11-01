@@ -156,7 +156,7 @@ For better search through the data please use the [recordings_table.md](recordin
 
 ## Attribution
 
-If you have used our data, please cite our original [paper](https://arxiv.org/abs/1909.06897)
+If you have used our data, please cite our original [paper](https://ieeexplore.ieee.org/document/9197277)
 
 ```
 @inproceedings{ligocki2020brno,
