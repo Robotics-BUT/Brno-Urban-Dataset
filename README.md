@@ -29,6 +29,7 @@ The sensory framework mounted on the car roof
 <img src="media/map.png" width=50%>
 Map visualizatoin of the places where the data have been collected 
 
+<!--
 ### Winter Extention
 
 <img src="media/dataset_we.jpg" width=50%>
@@ -45,7 +46,7 @@ Sensory framework
 
 <img src="media/map_we.jpg" width=50%>
 Covered places
-
+-->
 ## Data Description
 
 It is a good practice to sort the data according to its content. The time of recording serves mostly as a unique identifier and a brief description is good to get a quick overview of the recording, but both are cumbersome to use, if a whole database of all recordings is needed to be searched through. For this reason, we have employed a system of tags, which allow us to highlight the most important content and enable easy filtration of the recordings
