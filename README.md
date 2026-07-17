@@ -145,9 +145,43 @@ The brief overview of the data distribution in the various time of the day, weat
 
 ## Data Download
 
-To get the data on your computer please clone the repository and use any torrent client app to open the .torrent file that you are interested in. After loading the .torrent file check the data folders that you are interested in and start the content downloading.
+The dataset is hosted on the [CESNET](https://www.cesnet.cz/) public S3 storage and served over plain HTTPS. Each recording is a single `.zip` archive named after its recording id, for example:
 
-For better search through the data please use the [recordings_table.md](recordings_table.md) in the root directory.
+```
+https://s3.cl4.du.cesnet.cz/75d8ed98494bf3405dfc176c904123fa2c7dd102:bud/1_1_1_1.zip
+```
+
+### Download the whole dataset
+
+Clone this repository and run the helper script:
+
+```bash
+git clone https://github.com/RoboticsBUT/Brno-Urban-Dataset.git
+cd Brno-Urban-Dataset
+./download.sh                 # downloads every recording into ./download
+```
+
+Downloads resume automatically if interrupted — just re-run the same command. **The full dataset is roughly 3.6 TB**, so make sure you have enough free space before downloading everything. If you only need a subset, download individual parts instead (see below).
+
+### Download individual parts
+
+Pass the recording ids you want, or restrict the download to a whole session:
+
+```bash
+./download.sh 1_1_1_1 2_2_4_1     # only these recordings
+./download.sh -s 3                # all recordings of session 3
+./download.sh -o /data/bud        # choose the output directory
+./download.sh -l                  # list all available recordings
+./download.sh -h                  # show all options
+```
+
+You can also grab any single recording directly, without the script:
+
+```bash
+curl -O https://s3.cl4.du.cesnet.cz/75d8ed98494bf3405dfc176c904123fa2c7dd102:bud/1_1_1_1.zip
+```
+
+To pick recordings by content (weather, environment, daytime, distance, ...), use the searchable [recordings_table.md](recordings_table.md), where every recording id links directly to its download.
   
 ## Known Bugs
 
