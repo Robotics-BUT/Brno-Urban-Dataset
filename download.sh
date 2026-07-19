@@ -113,26 +113,55 @@ if [[ $full_set -eq 1 && $ASSUME_YES -eq 0 ]]; then
   esac
 fi
 
-# Pick a downloader.
+# Pick a downloader, plus a matching "remote size" probe used to detect
+# already-complete downloads.
 if command -v curl >/dev/null 2>&1; then
   DL() { curl -fL --retry 3 --retry-delay 5 -C - -o "$2" "$1"; }
+  remote_size() {
+    curl -fsIL "$1" \
+      | awk 'BEGIN{IGNORECASE=1} /^content-length:/{v=$2} END{gsub(/\r/,"",v); print v}'
+  }
 elif command -v wget >/dev/null 2>&1; then
   DL() { wget -c -O "$2" "$1"; }
+  remote_size() {
+    wget --spider -S "$1" 2>&1 \
+      | awk 'BEGIN{IGNORECASE=1} /content-length:/{v=$2} END{gsub(/\r/,"",v); print v}'
+  }
 else
   echo "Error: neither curl nor wget is installed." >&2
   exit 1
 fi
 
+# Local file size in bytes (portable; empty if the file is missing).
+local_size() { [[ -f "$1" ]] && wc -c < "$1" | tr -d ' '; }
+
 mkdir -p "$OUT_DIR"
 echo "Downloading ${#ids[@]} recording(s) into $OUT_DIR"
 
 failed=()
+skipped=0
 i=0
 for id in "${ids[@]}"; do
   i=$((i + 1))
   url="$BASE_URL/$id.zip"
   dest="$OUT_DIR/$id.zip"
   echo "[$i/${#ids[@]}] $id.zip"
+
+  # Skip parts that are already fully downloaded: compare the local file size
+  # to the server's Content-Length. A partial file (sizes differ) falls through
+  # to DL, which resumes it.
+  lsize="$(local_size "$dest")"
+  if [[ -n "$lsize" ]]; then
+    rsize="$(remote_size "$url")"
+    if [[ -n "$rsize" && "$lsize" == "$rsize" ]]; then
+      echo "  already complete ($lsize bytes) - skipping"
+      skipped=$((skipped + 1))
+      continue
+    elif [[ -n "$rsize" ]]; then
+      echo "  partial ($lsize/$rsize bytes) - resuming"
+    fi
+  fi
+
   if DL "$url" "$dest"; then
     :
   else
@@ -140,6 +169,8 @@ for id in "${ids[@]}"; do
     failed+=("$id")
   fi
 done
+
+[[ $skipped -gt 0 ]] && echo "Skipped $skipped already-complete recording(s)."
 
 if [[ ${#failed[@]} -gt 0 ]]; then
   echo "Done with ${#failed[@]} failure(s): ${failed[*]}" >&2
