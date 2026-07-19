@@ -150,9 +150,9 @@ for id in "${ids[@]}"; do
   # Skip parts that are already fully downloaded: compare the local file size
   # to the server's Content-Length. A partial file (sizes differ) falls through
   # to DL, which resumes it.
-  lsize="$(local_size "$dest")"
+  lsize="$(local_size "$dest")" || true
   if [[ -n "$lsize" ]]; then
-    rsize="$(remote_size "$url")"
+    rsize="$(remote_size "$url")" || true
     if [[ -n "$rsize" && "$lsize" == "$rsize" ]]; then
       echo "  already complete ($lsize bytes) - skipping"
       skipped=$((skipped + 1))
